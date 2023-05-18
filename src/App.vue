@@ -18,10 +18,11 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-
-  <AppBlackRow></AppBlackRow>
-  <AppMenu></AppMenu>
-  <AppMain></AppMain>
+  <main>
+    <AppBlackRow></AppBlackRow>
+    <AppMenu></AppMenu>
+    <AppMain> </AppMain>
+  </main>
 
   <AppFooter></AppFooter>
 </template>
