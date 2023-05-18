@@ -9,7 +9,7 @@
       <div>
         <div class="follow d-flex">
           <h4>FOLLOW US</h4>
-          <div class="icons p-1">
+          <div class="icons">
             <img src="../assets/img/footer-facebook.png" alt="fb" />
             <img src="../assets/img/footer-twitter.png" alt="" />
             <img src="../assets/img/footer-youtube.png" alt="" />
