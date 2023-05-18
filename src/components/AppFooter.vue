@@ -6,17 +6,23 @@
       class="sub-footer container d-flex justify-content-between align-items-center p-3"
     >
       <button class="btn">SIGN-UP NOW!</button>
-      <div>
-        <div class="follow d-flex">
-          <h4>FOLLOW US</h4>
-          <div class="icons">
-            <img src="../assets/img/footer-facebook.png" alt="fb" />
-            <img src="../assets/img/footer-twitter.png" alt="" />
-            <img src="../assets/img/footer-youtube.png" alt="" />
-            <img src="../assets/img/footer-pinterest.png" alt="" />
-            <img src="../assets/img/footer-periscope.png" alt="" />
-          </div>
-        </div>
+      <div class="follow d-flex justify-content-end">
+        <ul class="d-flex justify-items-end align-items-center">
+          <li>FOLLOW US</li>
+          <li><img src="../assets/img/footer-facebook.png" alt="fb" /></li>
+          <li>
+            <img src="../assets/img/footer-twitter.png" alt="Twitter" />
+          </li>
+          <li>
+            <img src="../assets/img/footer-youtube.png" alt="Youtube" />
+          </li>
+          <li>
+            <img src="../assets/img/footer-pinterest.png" alt="Pinterest" />
+          </li>
+          <li>
+            <img src="../assets/img/footer-periscope.png" alt="Periscope" />
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -36,8 +42,17 @@
 .sub-footer {
   height: 100%;
   .follow {
-    h4 {
+    width: 40%;
+
+    ul {
+      padding-top: 1.5rem;
       color: $blue-comics;
+      font-weight: 800;
+      list-style: none;
+    }
+
+    li {
+      padding-right: 1rem;
     }
   }
 }
