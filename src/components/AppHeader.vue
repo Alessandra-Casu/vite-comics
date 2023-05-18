@@ -23,7 +23,6 @@
 <style lang="scss" update>
 .nav-bar {
   height: 90px;
-  background-color: yellow;
   .img-logo {
     display: inline-block;
     height: 70%;

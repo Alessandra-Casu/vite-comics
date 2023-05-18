@@ -21,10 +21,12 @@ export default {
   <main>
     <AppBlackRow></AppBlackRow>
     <AppMenu></AppMenu>
-    <AppMain> </AppMain>
   </main>
 
-  <AppFooter></AppFooter>
+  <footer>
+    <AppMain> </AppMain>
+    <AppFooter></AppFooter>
+  </footer>
 </template>
 
 <style>
@@ -32,5 +34,9 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
 }
 </style>

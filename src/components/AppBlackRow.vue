@@ -10,7 +10,7 @@
 @use "./../assets/styles/partials/variables" as *;
 .black-row {
   color: white;
-  height: 100px;
+  height: 95px;
   background-color: $black-comics;
 }
 </style>
