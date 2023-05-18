@@ -6,4 +6,8 @@
   </div>
 </template>
 
-<style lang="scss" update></style>
+<style lang="scss" update>
+h2 {
+  color: red;
+}
+</style>
