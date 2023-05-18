@@ -56,13 +56,12 @@
 .foot-container {
   background-image: url("../assets/img/footer-bg.png");
   color: white;
-  height: calc(100vh - 410px);
+  height: calc(100vh - 390px);
   overflow: hidden;
 }
 .text {
   font-size: xx-small;
   width: 30%;
-  padding-top: 1rem;
 }
 ul {
   list-style: none;
@@ -70,6 +69,7 @@ ul {
 .title {
   font-weight: 800;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .img-footer {

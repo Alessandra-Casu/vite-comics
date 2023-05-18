@@ -49,7 +49,7 @@
 @use "./../assets/styles/partials/variables" as *;
 
 .blue-row {
-  height: 130px;
+  height: 110px;
   background-color: $blue-comics;
   color: white;
   ul {
