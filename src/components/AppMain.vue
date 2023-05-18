@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h2>Io sono il Main</h2>
+    <div><h2>Content goes here</h2></div>
   </div>
 </template>
 
