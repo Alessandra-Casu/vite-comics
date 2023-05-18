@@ -1,9 +1,11 @@
 <script></script>
 
 <template>
-  <div class="container d-flex justify-content-between p-3">
-    <img src="" alt="logo" />
-    <ul class="lista d-flex">
+  <div
+    class="nav-bar container d-flex justify-content-between align-items-center p-3"
+  >
+    <img class="img-logo" src="../assets/img/dc-logo.png" alt="logo" />
+    <ul class="list d-flex">
       <li><a href="#">CHARACTERS</a></li>
       <li><a href="#">COMICS</a></li>
       <li><a href="#">MOVIES</a></li>
@@ -19,7 +21,15 @@
 </template>
 
 <style lang="scss" update>
-.lista {
+.nav-bar {
+  height: 100px;
+  .img-logo {
+    display: inline-block;
+    height: 70%;
+  }
+}
+
+.list {
   list-style: none;
   a {
     text-decoration: none;
