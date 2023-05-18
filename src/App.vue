@@ -1,6 +1,6 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
-import AppMain from "./components/AppMain.vue";
+import AppUpFooter from "./components/AppUpFooter.vue";
 import AppFooter from "./components/AppFooter.vue";
 import AppBlackRow from "./components/AppBlackRow.vue";
 import AppMenu from "./components/AppMenu.vue";
@@ -8,7 +8,7 @@ import AppMenu from "./components/AppMenu.vue";
 export default {
   components: {
     AppHeader,
-    AppMain,
+    AppUpFooter,
     AppFooter,
     AppBlackRow,
     AppMenu,
@@ -24,7 +24,7 @@ export default {
   </main>
 
   <footer>
-    <AppMain> </AppMain>
+    <AppUpFooter> </AppUpFooter>
     <AppFooter></AppFooter>
   </footer>
 </template>
@@ -37,6 +37,5 @@ export default {
 }
 body {
   height: 100vh;
-  overflow: hidden;
 }
 </style>
