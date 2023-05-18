@@ -54,14 +54,15 @@
 
 <style lang="scss" update>
 .foot-container {
-  height: 250px;
   background-image: url("../assets/img/footer-bg.png");
   color: white;
+  height: calc(100vh - 410px);
+  overflow: hidden;
 }
 .text {
   font-size: xx-small;
-
   width: 30%;
+  padding-top: 1rem;
 }
 ul {
   list-style: none;
@@ -70,11 +71,8 @@ ul {
   font-weight: 800;
   padding-bottom: 0.5rem;
 }
-.image {
-  overflow: hidden;
-}
 
 .img-footer {
-  height: 400px;
+  height: 300px;
 }
 </style>

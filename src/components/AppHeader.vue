@@ -22,10 +22,10 @@
 
 <style lang="scss" update>
 .nav-bar {
-  height: 100px;
+  height: 90px;
   .img-logo {
     display: inline-block;
-    height: 70%;
+    height: 90%;
   }
 }
 

@@ -31,7 +31,7 @@
 <style lang="scss" update>
 @use "./../assets/styles/partials/variables" as *;
 .footer {
-  height: 100px;
+  height: 95px;
   background-color: $bg-footer;
   .btn {
     color: white;
