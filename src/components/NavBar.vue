@@ -61,14 +61,14 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  width: 50%;
   margin: auto;
 }
 ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+
+  gap: 1rem;
   list-style: none;
 }
 a {

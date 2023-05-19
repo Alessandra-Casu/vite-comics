@@ -20,8 +20,10 @@ export default {
 
 <template>
   <header>
-    <img class="img-logo" :src="getImagePath(logoImgName)" alt="logo" />
-    <NavBar></NavBar>
+    <div class="headBox">
+      <img class="img-logo" :src="getImagePath(logoImgName)" alt="logo" />
+      <NavBar></NavBar>
+    </div>
   </header>
 
   <!-- <ul class="list d-flex">
@@ -40,10 +42,17 @@ export default {
 
 <style lang="scss" update>
 header {
-  display: flex;
   height: 90px;
-  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.headBox {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
 .img-logo {
   height: 70px;
 }
