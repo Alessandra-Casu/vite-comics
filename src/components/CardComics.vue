@@ -24,7 +24,7 @@ export default {
 
 <template>
   <div class="card">
-    <img :src="thumbImg" :alt="price" />
+    <img :src="thumbImg" :alt="series" />
     <h2>{{ series }}</h2>
     <h3>{{ type }}</h3>
   </div>
