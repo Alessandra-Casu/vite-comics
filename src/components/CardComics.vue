@@ -23,21 +23,14 @@ export default {
 </script>
 
 <template>
-  <div class="cards">
-    <div class="card">
-      <img :src="thumbImg" :alt="price" />
-      <h2>{{ series }}</h2>
-      <h3>{{ type }}</h3>
-    </div>
+  <div class="card">
+    <img :src="thumbImg" :alt="price" />
+    <h2>{{ series }}</h2>
+    <h3>{{ type }}</h3>
   </div>
 </template>
 
 <style lang="scss" update>
-.cards {
-  width: 70%;
-  margin: auto;
-  display: flex;
-}
 .card {
   width: 30%;
 
