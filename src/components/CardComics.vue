@@ -30,15 +30,18 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "./../assets/styles/partials/variables" as *;
 .card {
   width: 15%;
+  height: 50%;
   text-align: center;
-  color: black;
+  color: white;
+  background-color: $black-comics;
   display: flex;
 }
 
 img {
   width: 100%;
-  height: 50%;
+  height: 120px;
 }
 </style>
