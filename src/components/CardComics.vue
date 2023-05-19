@@ -30,9 +30,9 @@ export default {
   </div>
 </template>
 
-<style lang="scss" update>
+<style lang="scss" scoped>
 .card {
-  width: 50%;
+  width: 15%;
   text-align: center;
   border: 2px solid salmon;
   background-color: gray;

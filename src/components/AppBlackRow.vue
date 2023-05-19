@@ -123,7 +123,9 @@ export default {
 .cont {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
-  height: 500px;
+  width: 90%;
+  padding: 2rem;
+  gap: 1rem;
+  margin: auto;
 }
 </style>
