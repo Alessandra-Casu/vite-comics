@@ -32,16 +32,15 @@ export default {
 
 <style lang="scss" update>
 .card {
-  width: 30%;
-
+  width: 50%;
   text-align: center;
   border: 2px solid salmon;
   background-color: gray;
   color: black;
+}
 
-  img {
-    width: 60px;
-    height: 60px;
-  }
+img {
+  width: 100%;
+  height: 50%;
 }
 </style>
