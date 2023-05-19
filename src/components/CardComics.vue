@@ -24,9 +24,8 @@ export default {
 
 <template>
   <div class="card">
-    <img :src="thumbImg" :alt="series" />
-    <h2>{{ series }}</h2>
-    <h3>{{ type }}</h3>
+    <img :src="thumbImg" :alt="type" />
+    <h5>{{ type }}</h5>
   </div>
 </template>
 
@@ -34,9 +33,8 @@ export default {
 .card {
   width: 15%;
   text-align: center;
-  border: 2px solid salmon;
-  background-color: gray;
   color: black;
+  display: flex;
 }
 
 img {

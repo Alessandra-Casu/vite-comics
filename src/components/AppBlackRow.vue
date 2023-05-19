@@ -88,16 +88,25 @@ export default {
           type: "graphic novel",
         },
       ],
+      jumbotronName: "jumbotron.png",
     };
   },
   components: {
     CardComics,
+  },
+  methods: {
+    getImagePath(img) {
+      return new URL(`../assets/img/${img}`, import.meta.url).href;
+    },
   },
 };
 </script>
 
 <template>
   <div class="black-row">
+    <div class="jumbotron">
+      <img :src="getImagePath(jumbotronName)" alt="jumbo" />
+    </div>
     <div class="cont">
       <CardComics
         v-for="comic in arrComics"
@@ -116,10 +125,17 @@ export default {
 @use "./../assets/styles/partials/variables" as *;
 .black-row {
   color: white;
-
   background-color: $black-comics;
 }
+.jumbotron {
+  height: 40%;
+  background-size: cover;
 
+  img {
+    width: 100%;
+    height: 200px;
+  }
+}
 .cont {
   display: flex;
   flex-wrap: wrap;
