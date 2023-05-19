@@ -21,7 +21,10 @@ export default {
 <template>
   <header>
     <div class="headBox">
-      <img class="img-logo" :src="getImagePath(logoImgName)" alt="logo" />
+      <div>
+        <img class="img-logo" :src="getImagePath(logoImgName)" alt="logo" />
+      </div>
+
       <NavBar></NavBar>
     </div>
   </header>
@@ -47,13 +50,9 @@ header {
   justify-content: center;
   align-items: center;
 }
-.headBox {
-  width: 80%;
-  margin: auto;
-  display: flex;
-}
 
 .img-logo {
+  display: block;
   height: 70px;
 }
 </style>

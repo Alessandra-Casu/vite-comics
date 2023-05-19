@@ -1,9 +1,7 @@
 <script></script>
 <template>
   <div class="blue-row">
-    <ul
-      class="container contents d-flex justify-content-around align-items-center h-100"
-    >
+    <ul class="headBox">
       <li>
         <div class="box">
           <img
@@ -40,7 +38,6 @@
           <a href="#"> DC POWER VISA</a>
         </div>
       </li>
-      <li></li>
     </ul>
   </div>
 </template>
@@ -53,16 +50,16 @@
   background-color: $blue-comics;
   color: white;
   ul {
+    display: flex;
     list-style: none;
+    justify-content: space-between;
   }
   a {
     color: white;
     text-decoration: none;
   }
 }
-.contents {
-  width: 80%;
-}
+
 .box {
   img {
     height: 50px;

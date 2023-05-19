@@ -55,6 +55,8 @@
 <style lang="scss" update>
 .foot-container {
   background-image: url("../assets/img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   height: calc(100vh - 390px);
   overflow: hidden;
