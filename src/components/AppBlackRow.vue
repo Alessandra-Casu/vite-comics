@@ -129,8 +129,7 @@ export default {
 }
 .jumbotron {
   height: 40%;
-  background-size: cover;
-
+  object-fit: inherit;
   img {
     width: 100%;
     height: 200px;
